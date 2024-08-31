@@ -1,0 +1,7 @@
+*.out
+server
+client
+*.o
+shmem_file
+solution.txt
+workload.txt

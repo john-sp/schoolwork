@@ -1,0 +1,21 @@
+Script started on 2024-04-16 14:38:14-05:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="125" LINES="32"]
+(B[m(B[m[?2004h[38;5;250m[48;5;240m jderr [48;5;238m[38;5;240m[38;5;250m[48;5;238m royal-01 [48;5;31m[38;5;238m[38;5;15m[48;5;31m ~ [48;5;237m[38;5;31m[38;5;250m[48;5;237m private [48;5;237m[38;5;244m[38;5;250m[48;5;237m cs537 [48;5;237m[38;5;244m[38;5;250m[48;5;237m P4 [48;5;237m[38;5;244m[38;5;254m[48;5;237m P6 [48;5;161m[38;5;237m[38;5;15m[48;5;161m main [48;5;240m[38;5;161m[38;5;250m[48;5;240m ⬇ [48;5;130m[38;5;240m[38;5;15m[48;5;130m 5✎ [48;5;52m[38;5;130m[38;5;15m[48;5;52m 7? [48;5;236m[38;5;52m[38;5;15m[48;5;236m $ [0m[38;5;236m[0m ps -eo user,pcpu,comm | sort -k2 | tailu[Khtop./tests/runtests 
+[?2004lRunning test 1 (Small number of PUTs with unique keys)...
+Test 1 passed
+Running test 2 (Small number of PUTs/GETs with unique keys)...
+Test 2 passed
+Running test 3 (Large number of PUTs/GETs with unique keys)...
+Test 3 passed
+Running test 4 (Large number of PUTs/GETs with unique keys - multithreaded)...
+Test 4 passed
+Running test 5 (Multi-threaded PUT/GET correctness test)...
+Test 5 passed
+Running test 6 (Uniform workload perfromance test)...
+baseline: 112.2873458 your solution: 6714.213559599999                     
+(speedup = 59.79492623825114)
+Test 6 passed
+Total score: 6
+[?2004h[38;5;250m[48;5;240m jderr [48;5;238m[38;5;240m[38;5;250m[48;5;238m royal-01 [48;5;31m[38;5;238m[38;5;15m[48;5;31m ~ [48;5;237m[38;5;31m[38;5;250m[48;5;237m private [48;5;237m[38;5;244m[38;5;250m[48;5;237m cs537 [48;5;237m[38;5;244m[38;5;250m[48;5;237m P4 [48;5;237m[38;5;244m[38;5;254m[48;5;237m P6 [48;5;161m[38;5;237m[38;5;15m[48;5;161m main [48;5;240m[38;5;161m[38;5;250m[48;5;240m ⬇ [48;5;130m[38;5;240m[38;5;15m[48;5;130m 5✎ [48;5;52m[38;5;130m[38;5;15m[48;5;52m 7? [48;5;236m[38;5;52m[38;5;15m[48;5;236m $ [0m[38;5;236m[0m exit
+[?2004lexit
+
+Script done on 2024-04-16 14:39:08-05:00 [COMMAND_EXIT_CODE="0"]
